@@ -1,0 +1,8 @@
+total = 0
+while True:
+    expense = float(input("Enter expense (0 to stop): "))
+    if expense == 0:
+        break
+    total += expense
+
+print("Total Spent =",total)
